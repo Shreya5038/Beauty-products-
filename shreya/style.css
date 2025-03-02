@@ -1,0 +1,235 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+
+
+    background-image: url("logo.jpg"); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: rgba(255, 111, 97, 0.9); 
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 200px 20px;
+    color: white;
+}
+
+.hero h1, .hero p {
+    background: rgba(0, 0, 0, 0.5); 
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.btn {
+    display: inline;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.products {
+    text-align: center;
+    padding: 50px 20px;
+    background: rgba(255, 255, 255, 0.9); 
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product button {
+    padding: 8px 15px;
+    background: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ff6f61;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.hero, .about, .contact {
+    text-align: center;
+    padding: 80px;
+    background: #f9e6e3;
+    margin-top: 60px;
+    z-index: -20;
+}
+.hero{
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+.hero h1, .about h1, .contact h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.products {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product button {
+    padding: 8px 15px;
+    background: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #333;
+    color: white;
+}
